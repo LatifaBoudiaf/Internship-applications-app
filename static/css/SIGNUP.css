@@ -1,0 +1,136 @@
+.signup{
+    min-height: 100vh;
+    background-image: url(../images/signup.jpg); 
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.signup-mainPage{
+    height: max-content;
+    padding: 30px 0;
+
+}
+
+.signupContent{
+    padding-top: 75px;
+    color: white;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.studentSignup{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: var(--H1);
+    color: var(--vanDyke);
+  }
+  
+.signup-welcome{
+    font-size: var(--H6);
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 !important;
+    color: var(--vanDyke);
+
+
+}
+.signup-input{
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--vanDyke);
+    box-shadow: 5px 5px 5px var(--vanDyke);
+    margin: 10px 0;
+}
+
+
+.signup-left{
+    width: max-content;
+    float: left;
+    margin: auto 100px auto 50px;
+}
+
+.signup-right{
+    width: max-content;
+    float: right;
+    margin: auto 50px auto 100px;
+}
+
+.signup-radio{
+    display: inline-block;
+    min-width: max-content;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 100px;
+}
+
+.signup-btn{
+    width: max-content;
+    margin: 20px 0;
+    padding: 10px 0;
+    color: #fff;
+    background-color: var(--melon);
+    font-size: var(--P);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: var(--melon);
+    box-shadow: 2px 5px 5px #111;
+}
+
+.signup-error{
+    text-align: start;
+    font-size: smaller;
+    color: var(--light-red);
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1170px) {
+    .signup-mainPage{
+        padding: 20px 10px;
+    }
+       
+    .signup-welcome{
+        font-size: var(--P);
+        padding: 10px 0;
+    }
+    .signup-input{
+        width: 80vw;
+        height: 45px;
+    }
+    
+    .signup-radio{
+        display: inline-block;
+        min-width: max-content;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-right: 100px;
+    }
+    
+    .signup-btn{
+        width: max-content;
+        margin: 20px 0;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    
+    
+    
+    .studentSignup{
+        padding: 20px 0 10px 0;
+        font-size: var(--H3);
+    }
+    .signup-left {
+       float: none;
+       margin: auto 30px ;
+     }
+     .signup-right{
+        float: none;
+        margin: auto 30px ;
+     }
+
+}

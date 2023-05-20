@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+
+  }
+  
+  :root{
+    --H1 : 4rem;
+    --H2 : 3.5rem;
+    --H3 : 3rem;
+    --H4 : 2.5rem;
+    --H5 : 2rem;
+    --H6 : 1.5rem;
+    --p : 1rem;
+    --bodySml : 0.75rem;
+    --bodylrg : 1.5rem;
+
+    --vanDyke: #44393D;
+    --light-red: #FC7574;
+    --melon: #EEB3AE;
+    --melon-2: #F2A09B;
+    --non-photo-blue: #A6D6D8;
+  }
+  

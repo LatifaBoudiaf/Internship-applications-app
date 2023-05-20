@@ -1,0 +1,30 @@
+.studentHome-content{
+    min-height: 100vh;
+    overflow-x: hidden;   
+}
+
+.studentHome-mainPage{
+    padding-top: 80px;
+}
+.studentHome-title{
+    margin-top: 10px;
+    padding: 40px 20px;
+    color: var(--non-photo-blue);
+    font-weight: bold;
+}
+
+.studentHome-subtitle{
+    color: #9097C0;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.studentHome-space{
+    padding-top: 100px;
+    margin: 20px 10px 20px 10px;
+    border-radius: 10px;
+    background-color: rgba(144, 151, 192, 0.5);
+    width: 50vw;
+    height: 40vh;
+    float: right;
+}

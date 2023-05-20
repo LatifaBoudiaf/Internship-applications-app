@@ -1,0 +1,77 @@
+.existingInternships-mainPage{
+    overflow: hidden;
+    padding-top: 100px;
+
+}
+.existingInternships-title{
+    margin-top: 10px;
+    color: #9097C0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.existingInternships-content{
+    margin: 10px 30px;
+}
+
+.internshipCard-background{
+    position: static !important;
+    background-color: rgba(144, 151, 192, 0.5) !important;
+    border-radius: 20px !important;
+    height: 400px !important;
+    margin: 30px !important;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.internshipCard-img{
+    padding: 5px 0;
+    border-radius: 20px;
+    height: 350px !important;
+}
+.internshipCard-title{
+    margin-top: 10px;
+    color: #503B31;
+    display: inline-block;
+    font-weight: bold;
+    font-size: medium;
+}
+.internshipCard-subtitle{
+    color: #503B31;
+    font-weight: bold;
+}
+
+.internshipCard-subtitle2{
+    font-size: small;
+    color: #fff;
+    float: right;
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+.internshipCard-btn{
+    color: #fff !important;
+    background-color: #9097C0 !important;
+    font-size: smaller;
+    border-radius: 10px;
+    font-weight: bold !important;
+    padding: 15px 40px !important;
+    border: #9097C0;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px 0 40px 0;
+}
+
+@media (max-width: 1080px) {
+
+    .internshipCard-background{
+        height: max-content !important;
+    }
+    
+    .internshipCard-img{
+        width: 90vw;
+    }
+
+
+
+}

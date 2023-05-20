@@ -1,0 +1,194 @@
+.create-app-screen{
+    min-height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+
+
+}
+.create-app-mainPage{
+    height: max-content;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.create-app-content{
+    padding: 100px 50px 0px 50px;
+    color: #503B31;
+    margin: 0 auto;
+}
+
+.create-app-header{
+    position: fixed;
+    min-width: 100vw;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #9097C0;
+    box-shadow: 0 5px 5px #404771;
+}
+
+.formm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between 
+}
+
+.create-app-title{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 0;
+    font-size: var(--H6);
+  }
+
+  .create-app-subtitle{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 45px;
+    font-size: var(--H6);
+  }
+  
+.create-app-input{
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #503B31;
+    box-shadow: 2px 5px 5px #404771;
+    margin: 15px 0;
+}
+
+.create-app-radio{
+    display: inline-block;
+    min-width: max-content;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+.create-app-studyYear{
+    margin-bottom: 30px;
+}
+
+
+.create-app-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 90vw;
+    max-width: 100vw;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.create-app-btn .create-app-btnSub{
+    color: #fff;
+    background-color: #9097C0;
+    font-size: var(--P);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px 60px;
+    border: #9097C0;
+    box-shadow: 2px 5px 5px #404771;
+}
+
+.create-app-btn .create-app-btnSub:hover{
+    background-color: #503B31;
+}
+
+.create-app-btn .create-app-btnBack{
+    color: #9097C0;
+    background-color: #fff;
+    font-size: var(--P);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px 60px;
+    border: 2px solid  #9097C0;
+    box-shadow: 2px 5px 5px #404771;
+    text-decoration: none;
+}
+
+.create-app-btn .create-app-btnBack:hover{
+    color:#503B31;
+    border: 2px solid #503B31;
+}
+
+.create-app-btnCancel{
+    color: #503B31;
+    background-color: #fff;
+    font-size: var(--P);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px 60px;
+    border: #503B31;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.create-app-btnCancel:hover{
+    color: #9097C0;
+}
+
+.create-app-error{
+    font-size: smaller;
+    color: red;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+@media (max-width: 1175px) {
+    .formm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+    }
+    .create-app-content{
+        padding: 100px 30px 0px 30px;
+        color: #503B31;
+        margin: 0 auto;
+    }
+    .create-app-welcome{
+        font-size: var(--P);
+        padding: 10px 0;
+    }
+    .create-app-input{
+        width: 80vw;
+        height: 45px;
+    }
+    
+    .create-app-radio{
+        display: inline-block;
+        min-width: max-content;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+    }
+    
+    .create-app-btn{
+        flex-direction: column;
+        margin: 15px 0;
+        padding: 5px;
+        min-height: 130px;
+        height: max-content;
+    }
+
+    .create-app-btnCancel{
+        margin: 20px 0;
+    }
+
+    .create-app-btnBack{
+        margin: 20px 0;
+    }
+
+    .create-app-btnSub{
+        margin: 20px 0;
+    }
+    
+    .create-app-studentSignup{
+        padding: 20px 0 10px 0;
+        font-size: var(--H3);
+    }
+
+}

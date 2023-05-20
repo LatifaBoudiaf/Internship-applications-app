@@ -1,0 +1,92 @@
+.service{
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color:rgba(80, 59, 49, 0.3);
+    padding-top: 75px;
+}
+.service-mainPage{
+    height: 100vh;
+    padding: 50px 30px;
+    margin: 50px 100px;
+    height: 400px;
+    width: 600px;
+
+}
+
+.service-title{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px ;
+    font-weight: bold;
+    color: #503B31;
+}
+
+.service-text{
+    font-weight: bold;
+    font-size: var(--H6);
+    color: #503B31;
+    text-align: start;
+}
+
+.service-btn{
+    padding: 50px 0;
+}
+
+.service-btn button{
+    color: #fff;
+    background-color: #9097C0;
+    font-size: var(--P);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px 60px;
+    border: #9097C0;
+    box-shadow: 2px 5px 5px #404771;
+}
+
+.service-btn button:hover{
+    background-color: #503B31;
+    box-shadow: 2px 5px 5px #2b201a;
+    cursor: pointer;
+}
+
+@media (max-width: 990px) {
+    
+    .service-mainPage{
+        padding: 10vh 5vw;
+        padding-top: 5vw;
+        margin: 5vh 5vw;
+        height: 75vh;
+        width: 75vw;
+    }
+    
+    .service-title{
+        padding: 30px;
+        padding-top: 10vh;
+    }
+    
+    .service-text{
+        font-size: var(--P);
+        line-height: 2;
+        color: #fff;
+        text-align: start;
+    }
+    
+    .service-btn button{
+        color: #fff;
+        background-color: #9097C0;
+        font-size: var(--P);
+        border-radius: 10px;
+        font-weight: bold;
+        padding: 15px 60px;
+        border: #9097C0;
+        box-shadow: 2px 5px 5px #404771;
+    }
+    
+    .service-btn button:hover{
+        background-color: #503B31;
+        box-shadow: 2px 5px 5px #2b201a;
+        cursor: pointer;
+    }
+    
+}

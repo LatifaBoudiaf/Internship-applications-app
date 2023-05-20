@@ -1,0 +1,168 @@
+.loginScreen{
+    color: var(--vanDyke);
+    min-height: 100vh;
+    overflow: hidden;
+    overflow-x: hidden;
+
+  }
+
+
+.login-mainPage{
+    height: max-content;
+    padding: 30px 0;
+    background-color: var(--non-photo-blue);
+    background-image: url(../images/login.jpg);
+}
+
+.loginContent{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: max-content;
+    margin: 0 auto;
+    max-height: 100vh;
+}
+
+.login{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    font-size: var(--H1);
+    color: var(--vanDyke);
+  }
+  
+.login-welcome{
+    font-size: var(--H6);
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+    color: var(--vanDyke);
+}
+
+.login-input{
+    padding: 10px;
+    width: 500px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid var(--melon-2);
+    box-shadow: 2px 2px 5px var(--light-red);
+}
+
+.loginInput{
+    width: 400px;
+    margin: 10px 25px ;
+}
+
+.loginLabel{
+    font-size: var(--P);
+    margin: 10px 25px ;
+    color: var(--melon-2);
+    font-weight: bold;
+    color: var(--vanDyke);
+}
+
+.login-email{
+    margin: 25px 0;
+}
+
+.login-pass{
+    margin: 25px 0;
+}
+
+.login-label{
+    font-size: var(--P);
+    color: var(--vanDyke);
+
+}
+
+.loginBtn{
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.loginBtn button {
+    background-color: var(--melon-2);
+    font-size: 13px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid var(--melon-2);
+    padding: 15px 40px;
+    color: white;
+    box-shadow: 2px 2px 3px var(--light-red);
+
+}
+
+.reset-pass{
+    background-color: var(--vanDyke);
+    font-size: 13px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid var(--vanDyke);
+    padding: 15px 40px;
+    color: white;
+    box-shadow: 2px 2px 3px var(--vanDyke);
+}
+
+
+.back{
+    background-color: #fff;
+    font-size: 13px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid var(--vanDyke);
+    padding: 15px 40px;
+    color: var(--vanDyke);
+    box-shadow: 2px 2px 3px var(--vanDyke);
+
+}
+
+.login-error{
+    font-size: smaller ;
+    color: #fd9393;
+    margin: 0;
+    padding: 3px;
+}
+
+.forgot-pass{
+    border: var(--vanDyke);
+    display: block;
+    color: var(--vanDyke);
+    text-decoration: none;
+    font-weight: bold;    
+    cursor: pointer;
+}
+
+.forgot-title{
+    color: var(--vanDyke) !important;
+    font-weight: bold;
+    text-align: center !important;
+
+}
+
+.forgot-header{
+    padding-top: 40px;
+}
+
+.modal-body p{
+    color: var(--melon-2);
+}
+
+@media only screen and (max-width: 800px){
+    
+    .login-mainPage{
+        padding: 10vh 0;
+    }
+
+    .login{
+        font-size: var(--H3);
+      }
+    
+    .login-input{
+        width: 80vw;
+        height: 7vh;
+        border-radius: 10px;
+        border: #29274C;
+        box-shadow: 2px 2px 5px #111;
+    
+    }
+}

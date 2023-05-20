@@ -1,0 +1,97 @@
+.myApplicatons-content{
+    min-height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.myApplicatons-mainPage{
+    padding-top: 80px;
+    min-height: 100vh;
+}
+
+.myApplicatons-title{
+    margin-top: 10px;
+    padding: 40px 20px;
+    color: #9097C0;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.myApplicatons-title1{
+    color: #503B31;
+    font-weight: 600;
+}
+
+.myApplicatons-card{
+    background-color: #111;
+    position: sticky !important;
+}
+
+.myApplications-background{
+    position: static !important;
+    border-radius: 20px !important;
+    height: 150px !important;
+    margin: 30px !important;
+    padding: 25px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px #111;
+}
+
+.myApplicatons-subtitle1{
+    color: #503B31;
+    font-size:  medium;
+    font-weight: 700;
+    padding: 3px;
+}
+
+.myApplicatons-subtitle2{
+    margin: 0;
+    font-size:  smaller;
+    font-weight: 700;
+    padding: 10px 10px 5px 50px;
+    color: #9097C0;
+    text-decoration: none;
+}
+
+.myApplicatons-img1{
+    height: 30px;
+}
+
+.myApplicatons-img2{
+    height: 40px;
+    filter: invert(68%) sepia(7%) saturate(1253%) hue-rotate(194deg) brightness(88%) contrast(91%);
+}
+
+.myApplicatons-ul{
+    list-style: none;
+}
+
+.myApplicatons-btn{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    padding: 15px 40px 20px 40px;
+    width: fit-content;
+    border: 2px solid #9097C0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #111;
+    margin: 70px 0;
+    color: #9097C0;
+}
+
+
+.myApplicatons-btn:hover{
+    background-color: #9097C0;
+    border: 2px solid white;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.myApplicatons-btn:hover .myApplicatons-img2{
+    filter: invert(100%) sepia(100%) saturate(18%) hue-rotate(212deg) brightness(105%) contrast(100%);
+}
+
+.myApplicatons-btn:hover .myApplicatons-subtitle2{
+    color: #fff;
+}

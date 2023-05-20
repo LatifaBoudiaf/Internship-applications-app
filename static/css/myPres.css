@@ -1,0 +1,27 @@
+.MyPresence-mainPage{
+    min-height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.MyPresence-card{
+    position: static;
+    margin: 20px 30px;
+    margin-top: 120px;
+    padding: 20px 30px;
+    box-shadow:2px 5px 5px #9097C0;
+    border: #9097C0;
+}
+
+.MyPresence-header{
+    background-color: rgba(144, 151, 192, 0.7);
+    border-radius: 20%;
+}
+
+tbody tr:first-child td{
+    padding-top: 30px !important;
+}
+
+tbody button{
+    background-color: #9097C0;
+}

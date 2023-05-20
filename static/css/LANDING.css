@@ -1,0 +1,48 @@
+.landing{
+    min-height: 100vh;
+    background-image: url('../images/landing1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing-mainPage{
+    margin: 1vw;
+    height: 350px;
+    width: 30vw;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 95px;
+    background-color: rgba(238, 179, 174, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-text{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--vanDyke);
+    text-align: center;
+}
+
+@media (max-width: 990px) {
+    .landing{
+        background-image: url('../images/landing1Phone.jpg');
+    }
+    .landing-mainPage{
+        padding: 30px;
+        margin: 10vh auto;
+        height: 60vh;
+        width: 70vw;
+    }
+    .landing-text{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+}

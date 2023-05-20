@@ -1,0 +1,73 @@
+.studentDashboard-background{
+    background-image: url(../images/dash.jpg);
+    background-size: cover;
+    height: 100%;
+    flex-grow: 1;
+    width: 33vw;
+    float: left;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.studentDashboard-userImage{
+    margin: 20px 150px;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.studentDashboard-username{
+    font-size:medium;
+    font-weight: 600;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.studentDashboard-username:hover{
+    cursor: pointer;
+    color: #503B31;
+}
+
+.studentDashboard-title{
+    margin: 2vw;
+    display: flex;
+    align-self: flex-start;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.studentDashboard-row{
+    margin-left: 2vw;
+    width: 30vw;
+    background-color: white;
+    opacity: 1;
+    height: 1.5px;
+}
+
+.studentDashboard-functionalities{
+    font-weight: bold;
+    margin-right: 1vw;
+    line-height: 10vh;
+    list-style: none;
+    flex : start;
+    display: flex;
+    flex-direction: column;
+}
+
+.studentDashboard-item{
+    display: flex;
+    align-self: flex-start;
+    border-radius: 20px;
+    width: 28vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.studentDashboard-item:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #9097C0;
+}
